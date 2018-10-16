@@ -12,9 +12,9 @@ pushd $PWD
 	    echo "dist_system_type success!"
 	fi
     
-	echo "System_Types is $System_Types" 
-	echo "System_Distributor is $System_Distributor" 
-	echo "System_Description is $System_Description" 
-	echo "System_Release is $System_Release" 
+	echo "System_Types:$System_Types" 
+	echo "System_Distributor:$System_Distributor" 
+	echo "System_Description:$System_Description" 
+	echo "System_Release:$System_Release" 
 	
 popd
