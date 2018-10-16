@@ -6,12 +6,12 @@ export INSTALL_CMD
 
 if [ "$1" == "help" ]
 then
-	usage
+	help_usage
 fi
 
 if [ "$1" == "?" ]
 then
-	usage
+	help_usage
 fi
 
 INSTALL_CMD=$1

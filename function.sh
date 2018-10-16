@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-usage()
+help_usage()
 {
 	echo "Usage:"
 	echo "      ./install.sh \$CMD"

@@ -6,12 +6,12 @@ export UNINSTALL_CMD
 
 if [ "$1" == "help" ]
 then
-	usage
+	help_usage
 fi
 
 if [ "$1" == "?" ]
 then
-	usage
+	help_usage
 fi
 
 UNINSTALL_CMD=$1
