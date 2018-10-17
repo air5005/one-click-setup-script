@@ -16,11 +16,7 @@ install_docker_ubuntu_16_04_x86_64()
     sudo apt-get update
 	
 	#Install packages to allow apt to use a repository over HTTPS:
-	sudo apt-get -y install \
-		apt-transport-https \
-		ca-certificates \
-		curl \
-		software-properties-common
+	sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
 	
 	#Add Docker’s official GPG key:
 	# 官方源
