@@ -48,10 +48,10 @@ install_docker_ubuntu_16_04_x86_64()
 	# 上不会直接使用 root 用户。因此，更好地做法是将需要使用 docker 的用户加入 docker
 	# 用户组。
 	# 建立 docker 组：
-	sudo groupadd docker
+	# sudo groupadd docker
 	
 	#将当前用户加入 docker 组：
-	sudo usermod -aG docker $USER
+	# sudo usermod -aG docker $USER
 	
 	#退出当前终端并重新登录，进行如下测试。
 }
