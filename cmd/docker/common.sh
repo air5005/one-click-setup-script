@@ -52,6 +52,14 @@ install_docker_ubuntu_16_04_x86_64()
 	#退出当前终端并重新登录，进行如下测试。
 }
 
+Register__docker_image_accelerator_ubuntu_16_04_x86_64()
+{
+    #http://guide.daocloud.io/dcs/daocloud-9153151.html#docker-toolbox
+	
+	curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://f1361db2.m.daocloud.io
+	sudo systemctl restart docker.service
+}
+
 ## for centos 7_4_1708 x86_64
 rm_old_version_centos_7_4_1708_x86_64()
 {
